@@ -1,7 +1,7 @@
-import './App.css'
-import Cards from './components/regionCard.jsx'
-import {motion} from "framer-motion"
-import videobg from  "../assets/videobg.mp4"
+import './App.css';
+import Cards from './components/regionCard.jsx';
+import {motion} from "framer-motion";
+import videobg from  "../assets/videobg.mp4";
 
 const fadeInAnimations = {
   initial: {
