@@ -49,17 +49,17 @@ function App() {
           Select a region</motion.h1>
           <div className="regionSelect">
             <Cards
-              imageURL = "images/deadge.png"
+              imageURL = "images/deadge.PNG"
               title = "NA West"
               desc = "Player Data from NA West Region"
             />
             <Cards
-              imageURL = "images/thaemine.jpeg"
+              imageURL = "images/thaemine.JPEG"
               title = "NA East"
               desc = "Player Data from NA East Region"
             />
             <Cards
-              imageURL = "images/brel.jpg"
+              imageURL = "images/brel.JPG"
               title = "EU Central"
               desc = "Player Data from EU Central Region"
             />
