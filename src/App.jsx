@@ -1,7 +1,10 @@
-import './App.css';
-import Cards from './components/regionCard.jsx';
-import {motion} from "framer-motion";
-import videobg from  "../assets/videobg.mp4";
+import './App.css'
+import Cards from './components/regionCard.jsx'
+import {motion} from "framer-motion"
+import videobg from  "../assets/videobg.mp4"
+import brel from "../assets/brel.png"
+import thaemine from "../assets/thaemine.png"
+import deadge from "../assets/deadge.png"
 
 const fadeInAnimations = {
   initial: {
@@ -54,12 +57,12 @@ function App() {
               desc = "Player Data from NA West Region"
             />
             <Cards
-              imageURL = "./assets/thaemine.jpeg"
+              imageURL = "./assets/thaemine.png"
               title = "NA East"
               desc = "Player Data from NA East Region"
             />
             <Cards
-              imageURL = "./assets/brel.jpg"
+              imageURL = "./assets/brel.png"
               title = "EU Central"
               desc = "Player Data from EU Central Region"
             />
