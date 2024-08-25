@@ -1,7 +1,7 @@
 import './App.css'
 import Cards from './components/regionCard.jsx'
 import {motion} from "framer-motion"
-import videobg from  "./assets/videobg.mp4"
+import videobg from  "../assets/videobg.mp4"
 
 const fadeInAnimations = {
   initial: {
@@ -49,17 +49,17 @@ function App() {
           Select a region</motion.h1>
           <div className="regionSelect">
             <Cards
-              imageURL = "images/deadge.PNG"
+              imageURL = "./assets/deadge.png"
               title = "NA West"
               desc = "Player Data from NA West Region"
             />
             <Cards
-              imageURL = "images/thaemine.JPEG"
+              imageURL = "./assets/thaemine.JPEG"
               title = "NA East"
               desc = "Player Data from NA East Region"
             />
             <Cards
-              imageURL = "images/brel.JPG"
+              imageURL = "./assets/brel.JPG"
               title = "EU Central"
               desc = "Player Data from EU Central Region"
             />
