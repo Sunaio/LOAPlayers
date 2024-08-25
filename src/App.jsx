@@ -54,12 +54,12 @@ function App() {
               desc = "Player Data from NA West Region"
             />
             <Cards
-              imageURL = "./assets/thaemine.JPEG"
+              imageURL = "./assets/thaemine.jpeg"
               title = "NA East"
               desc = "Player Data from NA East Region"
             />
             <Cards
-              imageURL = "./assets/brel.JPG"
+              imageURL = "./assets/brel.jpg"
               title = "EU Central"
               desc = "Player Data from EU Central Region"
             />
