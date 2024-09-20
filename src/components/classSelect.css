@@ -1,0 +1,36 @@
+.classSelectContainer {
+    padding-top: 2em;
+    align-items: center;
+    
+}
+
+.classSelection {
+    text-align: center;
+    align-items: center;
+}
+
+.classSelection h1{
+    background-color: white;
+    width: 7.5em;
+    color: black;
+    border-radius: 1rem;
+    border: solid rgb(11, 136, 136) 3px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.classSelection button {
+    background-color: transparent;
+    width: 8.5em;
+    font-size: 16px;
+    height: 2em;
+    border-radius: 3px;
+    border-color: #4681f4;
+    margin: 7px;
+    font-weight: bold;
+}
+
+.classes {
+    padding: 10px;
+    margin-left: 10px;
+}

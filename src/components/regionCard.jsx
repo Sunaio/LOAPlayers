@@ -1,4 +1,6 @@
-import {motion} from "framer-motion";
+import {motion} from "framer-motion"
+import {Link} from 'react-router-dom'
+import './regionCard.css'
 
 const fadeInAnimations = {
     initial: {
@@ -20,18 +22,18 @@ function regionCard(props) {
         //Card component used for 3 different game regions (NAW, NAE, EUC)
         //On click should route to their specific region.
         <div className="cardContainer">
-            <motion.div className="card" 
+            <motion.div className="card"
                 variants={fadeInAnimations}
                 initial="initial"
                 whileInView="animate"
                 whileHover={{scale:1.3}}
                 transition= {{type: "spring", bounce: 0.4}}>
-                <img src = {props.imageURL} alt = '' />
+                <img src = {props.imageURL} alt = ''/>
                 <h2>{props.title}</h2>
                 <p>{props.desc}</p>
             </motion.div>
         </div>
-    );
+    )
 }
 
 export default regionCard
